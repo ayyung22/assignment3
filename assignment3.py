@@ -1,5 +1,9 @@
 #--------------------
-
+# Assignment 3: Python Collections
+# CIS 103: Introduction to Programming
+# Instructor:  Md Ali
+# Student Name:  Annie Yung
+# Date: 9/20/24
 
 #Creating a list
 fruits = ["apple", "banana", "orange", "grape"]
