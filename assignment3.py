@@ -43,12 +43,15 @@ print()
 student_names = {"John", "Emma", "Sophia", "James"}
 print(student_names)
 
+#adding Oliver to the set
 student_names.add("Oliver")
 print(student_names)
 
+#removing Sophia from the set
 student_names.remove("Sophia")
 print(student_names)
 
+#adding John to the set
 student_names.add("John")
 print(student_names)
 
@@ -67,11 +70,14 @@ student_scores = {
 
 print(student_scores)
 
+#accessing and printing Emma's score
 x = student_scores["Emma"]
 print(x)
 
+#adding new student Oliver with score of 95
 student_scores["Oliver"] = 95
 print(student_scores)
 
+#updating Sophia's score to 82 
 student_scores.update({"Sophia": 82})
 print(student_scores)
